@@ -117,13 +117,15 @@ html {
           border: 1px solid black;
           background: rgb(61, 61, 61);
           color: white;
-          font-size: 0.5rem;
+          font-size: 0.7rem;
           transition: all 0.5s ease;
+          box-shadow: black 0px 0px 10px 0.1px;
         }
 
         button:hover {
           transform: scale(1.02);
           transition: all 0.5s ease;
+          box-shadow: black 0px 0px 1px 0.1px;
         }
       }
 

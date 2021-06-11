@@ -131,19 +131,19 @@ const fdColumnReverse = document.querySelector(".fd-columnReverse");
 const code = document.querySelector(".jc-fs");
 
 
-const showCode = () => {
-	console.log("function working");
+const showCodeJcFs = () => {
+	
 	if (!code.classList.contains ("show-jc-fs")) {
+		console.log(".jc-fs");
+		cubeContainer.style. justifyContent = "flex-start"
 		code.classList.add("show-jc-fs")
 	} else {
 		code.classList.toggle("show-jc-fs")
-	}
+	} 
 }
 
 jcFlexStart. addEventListener("click", () => {
-	console.log("working");
-	cubeContainer.style. justifyContent = "flex-start"
-	showCode()
+	showCodeJcFs()
 })
 jcCenter. addEventListener("click", () => {
 	console.log("working");
