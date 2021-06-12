@@ -134,7 +134,7 @@ const code = document.querySelector(".jc-fs");
 const showCodeJcFs = () => {
 	
 	if (!code.classList.contains ("show-jc-fs")) {
-		console.log(".jc-fs");
+		console.log("");
 		cubeContainer.style. justifyContent = "flex-start"
 		code.classList.add("show-jc-fs")
 	} else {
@@ -145,6 +145,12 @@ const showCodeJcFs = () => {
 jcFlexStart. addEventListener("click", () => {
 	showCodeJcFs()
 })
+
+
+
+
+
+
 jcCenter. addEventListener("click", () => {
 	console.log("working");
 	cubeContainer.style. justifyContent = "center"
